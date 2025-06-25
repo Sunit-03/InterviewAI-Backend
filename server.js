@@ -15,7 +15,7 @@ const app = express();
 // Middleware for handling CORS
 app.use(
     cors({
-        origin: "https://interview-ai-frontend-sooty.vercel.app/",
+        origin: "https://interview-ai-frontend-sooty.vercel.app",
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
